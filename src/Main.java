@@ -7,7 +7,7 @@ public class Main {
         System.out.println("Угадай число");
 
         Random random = new Random();
-        int randomNumber = random.nextInt();
+        int randomNumber = random.nextInt(10);
 
         while (true) {
             System.out.println("угадай число от 0 до 10");
